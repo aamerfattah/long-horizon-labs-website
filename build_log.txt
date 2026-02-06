@@ -1,0 +1,40 @@
+
+> frontend@0.1.0 build
+> next build
+
+   ▲ Next.js 15.1.6
+
+   Creating an optimized production build ...
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (187kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ ✓ Compiled successfully
+   Skipping validation of types
+   Skipping linting
+   Collecting page data ...
+   Generating static pages (0/31) ...
+Error occurred prerendering page "/news". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: @clerk/clerk-react: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (/workspaces/DeepTechIQ/frontend/.next/server/chunks/190.js:43:1483)
+    at /workspaces/DeepTechIQ/frontend/.next/server/chunks/190.js:32:54521
+    at nO (/workspaces/DeepTechIQ/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:20:45959)
+    at nI (/workspaces/DeepTechIQ/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:20:47734)
+    at nL (/workspaces/DeepTechIQ/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:20:65533)
+    at nN (/workspaces/DeepTechIQ/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:20:63164)
+    at n$ (/workspaces/DeepTechIQ/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:20:46311)
+    at nI (/workspaces/DeepTechIQ/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:20:47780)
+    at nL (/workspaces/DeepTechIQ/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:20:65533)
+    at nN (/workspaces/DeepTechIQ/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:20:63164)
+Export encountered an error on /news/page: /news, exiting the build.
+Error occurred prerendering page "/_not-found". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: @clerk/clerk-react: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (/workspaces/DeepTechIQ/frontend/.next/server/chunks/190.js:43:1483)
+    at /workspaces/DeepTechIQ/frontend/.next/server/chunks/190.js:32:54521
+    at nO (/workspaces/DeepTechIQ/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:20:45959)
+    at nI (/workspaces/DeepTechIQ/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:20:47734)
+    at nL (/workspaces/DeepTechIQ/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:20:65533)
+    at nN (/workspaces/DeepTechIQ/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:20:63164)
+    at n$ (/workspaces/DeepTechIQ/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:20:46311)
+    at nI (/workspaces/DeepTechIQ/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:20:47780)
+    at nL (/workspaces/DeepTechIQ/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:20:65533)
+    at nN (/workspaces/DeepTechIQ/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:20:63164)
+Export encountered an error on /_not-found/page: /_not-found, exiting the build.
+ ⨯ Static worker exited with code: 1 and signal: null
