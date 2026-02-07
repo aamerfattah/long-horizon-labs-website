@@ -69,8 +69,8 @@ export default function StrategicMetricTranslator() {
                                     key={s}
                                     onClick={() => setStatus(s)}
                                     className={`flex-1 p-4 rounded-2xl border-2 flex flex-col items-center gap-2 transition-all ${status === s
-                                            ? (s === 'green' ? 'bg-emerald-50 border-emerald-500 text-emerald-700' : s === 'amber' ? 'bg-orange-50 border-orange-500 text-orange-700' : 'bg-red-50 border-red-500 text-red-700')
-                                            : 'border-slate-100 bg-white text-slate-400 hover:border-slate-200'
+                                        ? (s === 'green' ? 'bg-emerald-50 border-emerald-500 text-emerald-700' : s === 'amber' ? 'bg-orange-50 border-orange-500 text-orange-700' : 'bg-red-50 border-red-500 text-red-700')
+                                        : 'border-slate-100 bg-white text-slate-400 hover:border-slate-200'
                                         }`}
                                 >
                                     {s === 'green' ? <CheckCircle className="w-5 h-5" /> : s === 'amber' ? <AlertCircle className="w-5 h-5" /> : <XCircle className="w-5 h-5" />}
@@ -117,14 +117,14 @@ export default function StrategicMetricTranslator() {
 
             <div className="pt-12 border-t border-slate-100 grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div className="space-y-4">
-                    <h3 className="text-xs font-black uppercase tracking-[0.3em] text-midnight">Reporting Philosophy</h3>
+                    <h3 className="text-xs font-black uppercase tracking-[0.3em] text-midnight">Logic</h3>
                     <p className="text-base text-slate-custom font-medium leading-relaxed">
-                        I believe that too many executive reports fail because they provide data without perspective. My 'Strategic Metric Translator' is designed to force technical teams to commit to a narrative. It translates quantitative breach levels into qualitative strategic choices that Boards can actually act upon.
+                        Executive reports often provide data without perspective. The Strategic Metric Translator is designed to require a commitment to narrative. It translates quantitative breach levels into qualitative strategic choices for boardroom action.
                     </p>
                 </div>
                 <div className="bg-midnight p-8 rounded-[32px] text-white flex items-center justify-center text-center">
                     <p className="text-lg font-bold text-aero-blue leading-tight tracking-tight px-4">
-                        'I don't report numbers; I report the risks those numbers represent.'
+                        Reporting focuses on the risks represented by the data, rather than the numbers in isolation.
                     </p>
                 </div>
             </div>

@@ -9,50 +9,43 @@ const projects = [
     title: "Policy Shock Simulator",
     statement: "Modelling first-order impacts of policy shifts on long-term capital outcomes.",
     icon: Terminal,
-    id: "policy-shock-simulator",
-    repo: "https://github.com/aamerfattah/policy-shock-simulator"
+    id: "policy-shock-simulator"
   },
   {
     title: "Member Outcome Engine",
     statement: "Translating raw fund data into member-centric retirement metrics.",
     icon: Database,
-    id: "member-outcomes-lite",
-    repo: "https://github.com/aamerfattah/member-outcomes-lite"
+    id: "member-outcomes-lite"
   },
   {
     title: "Strategic Metric Translator",
     statement: "Converting technical complexity into board-level strategic narratives.",
     icon: BarChart3,
-    id: "board-metrics-translator",
-    repo: "https://github.com/aamerfattah/board-metrics-translator"
+    id: "board-metrics-translator"
   },
   {
     title: "Decision Scenario Tree",
     statement: "A minimal engine for weighted decision tree and scenario planning.",
     icon: TreeDeciduous,
-    id: "scenario-tree",
-    repo: "https://github.com/aamerfattah/scenario-tree"
+    id: "scenario-tree"
   },
   {
     title: "Systemic Data Refinery",
     statement: "Standardising public financial datasets for systemic risk analysis.",
     icon: Box,
-    id: "super-data-cleaner",
-    repo: "https://github.com/aamerfattah/super-data-cleaner"
+    id: "super-data-cleaner"
   },
   {
     title: "Long Horizon Indicators",
     statement: "Defining metrics that maintain signal over 10 to 30 year horizons.",
     icon: ShieldCheck,
-    id: "long-horizon-kpis",
-    repo: "https://github.com/aamerfattah/long-horizon-kpis"
+    id: "long-horizon-kpis"
   },
   {
     title: "AI Governance Framework",
-    statement: "An opinionated framework for algorithmic governance and deployment.",
+    statement: "An framework for algorithmic governance and fiduciary deployment.",
     icon: Scale,
-    id: "ethical-ai-checklist",
-    repo: "https://github.com/aamerfattah/ethical-ai-checklist"
+    id: "ethical-ai-checklist"
   }
 ];
 
@@ -73,7 +66,7 @@ export default function HomePage() {
             <span className="text-aero-blue">long-term</span> capital.
           </h1>
           <p className="text-2xl md:text-3xl text-slate-custom font-medium leading-relaxed tracking-tight max-w-2xl">
-            I develop minimalist, high-signal artifacts for risk, governance, and decision-making in capital markets.
+            Long Horizon Labs develops minimalist, high-signal artifacts for risk, governance, and decision-making in capital markets.
           </p>
         </motion.div>
       </section>
@@ -85,10 +78,10 @@ export default function HomePage() {
         </div>
         <div className="col-span-full md:col-span-8 space-y-10">
           <p className="text-3xl md:text-4xl text-midnight font-bold leading-[1.15] tracking-tight text-balance">
-            I believe that systemic risk is often buried in technical complexity. My philosophy centers on clarity over cleverness, stripping away the noise to expose the variables that actually drive 30 year outcomes. I prioritise explainability, technical restraint, and governance by design.
+            Systemic risk is often buried in technical complexity. Clarity over cleverness is the primary focus, stripping away noise to expose the variables that drive 30-year outcomes. Explainability, technical restraint, and governance by design remain the core priorities.
           </p>
           <Link href="/principles" className="inline-flex items-center gap-4 text-midnight font-black text-xs uppercase tracking-widest border-b-2 border-midnight pb-2 hover:border-aero-blue hover:text-aero-blue transition-all group">
-            Read My Principles <ArrowRight className="w-4 h-4 group-hover:translate-x-2 transition-transform" />
+            View Design Principles <ArrowRight className="w-4 h-4 group-hover:translate-x-2 transition-transform" />
           </Link>
         </div>
       </section>
@@ -98,10 +91,10 @@ export default function HomePage() {
         <div className="flex justify-between items-end border-b border-slate-200 pb-10">
           <div className="space-y-2">
             <h2 className="text-sm font-black uppercase tracking-[0.3em] text-aero-blue">Core Artifacts</h2>
-            <p className="text-slate-custom font-medium max-w-md">My opinionated open source tools for institutional decision support.</p>
+            <p className="text-slate-custom font-medium max-w-md">Open source tools for institutional decision support.</p>
           </div>
           <Link href="/projects" className="text-xs font-black text-midnight uppercase tracking-widest hover:text-aero-blue transition-colors flex items-center gap-2">
-            View All Projects <ChevronRight className="w-4 h-4" />
+            Explore All Projects <ChevronRight className="w-4 h-4" />
           </Link>
         </div>
 
@@ -109,7 +102,7 @@ export default function HomePage() {
           {projects.map((project, i) => (
             <Link
               key={project.id}
-              href={`/projects#${project.id}`}
+              href={`/projects/${project.id}`}
               className="group flex flex-col justify-between p-10 bg-white border border-slate-100 rounded-[40px] hover:shadow-premium hover:border-aero-blue/20 transition-all duration-500 relative overflow-hidden"
             >
               <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity">
@@ -127,7 +120,7 @@ export default function HomePage() {
               </div>
 
               <div className="mt-12 flex items-center gap-3 text-[10px] font-black text-aero-blue uppercase tracking-widest transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
-                Explore Documentation <ArrowRight className="w-3 h-3" />
+                Open Sandbox <ArrowRight className="w-3 h-3" />
               </div>
             </Link>
           ))}
@@ -139,7 +132,7 @@ export default function HomePage() {
         <div className="space-y-4">
           <div className="font-black text-midnight tracking-tighter text-4xl">Long Horizon Labs</div>
           <p className="text-slate-custom font-medium max-w-xs leading-relaxed text-sm">
-            I provide the technical substrate for 30 year strategic judgment in capital markets.
+            Providing the technical substrate for 30-year strategic judgment in capital markets.
           </p>
           <div className="text-[10px] text-slate-400 font-black uppercase tracking-[0.2em] pt-4">© 2026. All Rights Reserved.</div>
         </div>

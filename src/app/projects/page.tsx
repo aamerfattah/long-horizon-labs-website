@@ -17,7 +17,7 @@ export default function ProjectsPage() {
                 <div className="h-1.5 w-16 bg-aero-blue" />
                 <h1 className="text-7xl md:text-8xl font-black tracking-tighter leading-none text-midnight">Projects</h1>
                 <p className="text-2xl text-slate-custom font-medium leading-relaxed tracking-tight">
-                    My projects are minimalist, opinionated, and built to be understood. I prioritise technical restraint over complexity to ensure decision-grade signal.
+                    The project suite focuses on minimalist, high-signal artifacts. Technical restraint is prioritised over complexity to ensure decision-grade signal.
                 </p>
             </header>
 
@@ -50,15 +50,15 @@ export default function ProjectsPage() {
                         </div>
                         <div className="col-span-full md:col-span-8 space-y-20 pt-4 md:pt-0">
                             <div className="space-y-6">
-                                <h3 className="text-xs font-black uppercase tracking-[0.3em] text-slate-400">The Problem</h3>
+                                <h3 className="text-xs font-black uppercase tracking-[0.3em] text-slate-400">Problem Statement</h3>
                                 <p className="text-2xl text-midnight font-bold leading-relaxed tracking-tight">{project.problem}</p>
                             </div>
                             <div className="space-y-6">
-                                <h3 className="text-xs font-black uppercase tracking-[0.3em] text-slate-400">Technical Approach</h3>
+                                <h3 className="text-xs font-black uppercase tracking-[0.3em] text-slate-400">Technical Methodology</h3>
                                 <p className="text-xl text-slate-custom font-medium leading-relaxed tracking-tight">{project.methodology}</p>
                             </div>
                             <div className="space-y-6 bg-cream p-10 rounded-[40px] border border-slate-100 shadow-subtle">
-                                <h3 className="text-xs font-black uppercase tracking-[0.3em] text-aero-blue">Strategic Value</h3>
+                                <h3 className="text-xs font-black uppercase tracking-[0.3em] text-aero-blue">Strategic Outcome</h3>
                                 <p className="text-2xl text-midnight font-bold leading-relaxed tracking-tight">
                                     {project.why}
                                 </p>
@@ -70,7 +70,7 @@ export default function ProjectsPage() {
 
             <footer className="pt-24 text-center border-t border-slate-200">
                 <p className="text-xs text-slate-custom font-black uppercase tracking-[0.3em]">
-                    All my projects are licensed under the MIT Open Source standard.
+                    All projects are licensed under the MIT Open Source standard.
                 </p>
             </footer>
         </div>

@@ -11,18 +11,18 @@ export default function AboutPage() {
 
             <section className="editorial-grid">
                 <div className="col-span-full md:col-span-4 self-start">
-                    <h2 className="text-sm font-black uppercase tracking-[0.3em] text-aero-blue">Enterprise Leadership</h2>
+                    <h2 className="text-sm font-black uppercase tracking-[0.3em] text-aero-blue">Strategic Logic</h2>
                 </div>
                 <div className="col-span-full md:col-span-8 space-y-12">
                     <p className="text-3xl md:text-4xl text-midnight font-bold leading-tight tracking-tight text-balance">
-                        Enterprise C suite executive with 20 plus years of experience leading strategy, product, technology, and transformation across highly regulated financial services environments.
+                        Enterprise expertise across 20-plus years leading strategy, product, technology, and transformation within highly regulated financial services environments.
                     </p>
                     <div className="space-y-8 max-w-2xl">
                         <p className="text-xl text-slate-custom font-medium leading-relaxed">
-                            I have a proven record of scaling organisations, executing complex mergers, and commercialising digital platforms while strengthening risk and compliance at the board level. I specialise in bridging commercial strategy with technology execution, aligning innovation with operating models to deliver regulatory confidence and superior customer outcomes.
+                            Proven performance in scaling organisations, executing complex mergers, and commercialising digital platforms while strengthening risk and compliance at the board level. Specialist focus remains on bridging commercial strategy with technology execution, aligning innovation with operating models to deliver regulatory confidence and superior customer outcomes.
                         </p>
                         <p className="text-xl text-slate-custom font-medium leading-relaxed">
-                            As a Graduate Member of the Australian Institute of Company Directors (GAICD) with an Executive MBA from AGSM, I act as a trusted advisor on governance and capital allocation. Frequently invited to speak at board forums, I focus on the emerging risks and opportunities within superannuation, insurance, and data sectors.
+                            Qualifications include Graduate Member status with the Australian Institute of Company Directors (GAICD) and an Executive MBA from AGSM. Domain expertise covers the emerging risks and opportunities within the superannuation, insurance, and data sectors.
                         </p>
                     </div>
                 </div>

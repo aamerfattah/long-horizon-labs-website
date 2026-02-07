@@ -125,15 +125,15 @@ export default function MemberOutcomeEngine() {
             {/* Insight */}
             <div className="pt-12 border-t border-slate-100 grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div className="space-y-4">
-                    <h3 className="text-xs font-black uppercase tracking-[0.3em] text-midnight">Technical Pedagogy</h3>
+                    <h3 className="text-xs font-black uppercase tracking-[0.3em] text-midnight">Pedagogy</h3>
                     <p className="text-base text-slate-custom font-medium leading-relaxed">
-                        I argue that 'retirement planning' is a misnomer; it is actually a decumulation risk management exercise. My engine demonstrates that the sequence of returns during the first 5 years of retirement (the 'Retirement Risk Zone') is more critical than 40 years of prior accumulation.
+                        Retirement security remains a decumulation risk management exercise. The sequence of returns during the Retirement Risk Zone (the first 5 years of decumulation) is more critical than the prior accumulation phase.
                     </p>
                 </div>
                 <div className="bg-cream p-8 rounded-[32px] border border-slate-100 space-y-4">
-                    <h2 className="text-[10px] font-black uppercase tracking-[0.3em] text-aero-blue">Strategic Outcome</h2>
+                    <h2 className="text-[10px] font-black uppercase tracking-[0.3em] text-aero-blue">Core Metric</h2>
                     <p className="text-lg font-bold text-midnight tracking-tight">
-                        'I measure fund success by the years of security I provide, not the asset base I manage.'
+                        Fund success is measured by the years of security provided, rather than the asset base managed.
                     </p>
                 </div>
             </div>

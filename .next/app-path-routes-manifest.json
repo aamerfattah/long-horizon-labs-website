@@ -3,8 +3,8 @@
   "/favicon.ico/route": "/favicon.ico",
   "/about/page": "/about",
   "/governance/page": "/governance",
-  "/principles/page": "/principles",
   "/page": "/",
+  "/principles/page": "/principles",
   "/projects/[id/]/page": "/projects/[id/]",
   "/projects/page": "/projects"
 }

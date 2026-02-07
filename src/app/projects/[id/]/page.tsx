@@ -2,8 +2,6 @@
 
 import { useParams, notFound } from 'next/navigation';
 import { projectRegistry } from '@/lib/projectRegistry';
-import { LayoutWrapper } from '@/components/LayoutWrapper';
-import { Navbar } from '@/components/Navbar';
 import Link from 'next/link';
 import { ArrowLeft, Github, ExternalLink } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -58,7 +56,7 @@ export default function ProjectDetailPage() {
                 <div className="flex justify-between items-end">
                     <div className="space-y-2">
                         <h2 className="text-xs font-black uppercase tracking-[0.3em] text-slate-400">Interactive Sandbox</h2>
-                        <p className="text-slate-custom font-medium">I built this tool to allow you to model these dynamics with your own variables.</p>
+                        <p className="text-slate-custom font-medium">This interface allows for the modelling of specific dynamics using custom variables.</p>
                     </div>
                 </div>
 
@@ -70,11 +68,11 @@ export default function ProjectDetailPage() {
                             <project.icon className="w-8 h-8" />
                         </div>
                         <div className="space-y-2">
-                            <h3 className="text-2xl font-black text-midnight tracking-tight">Interactive Preview coming soon.</h3>
-                            <p className="text-slate-custom font-medium max-w-sm mx-auto">I am currently porting the full {project.title} engine from Python to TypeScript for this web sandbox.</p>
+                            <h3 className="text-2xl font-black text-midnight tracking-tight">Interactive Preview pending.</h3>
+                            <p className="text-slate-custom font-medium max-w-sm mx-auto">The technical engine for {project.title} is being prepared for this web interface.</p>
                         </div>
                         <Link href={`https://github.com/aamerfattah/${id}`} target="_blank" className="inline-flex items-center gap-3 text-xs font-black uppercase tracking-widest text-white bg-midnight px-8 py-4 rounded-full hover:bg-aero-blue transition-all">
-                            Browse Python Source <ExternalLink className="w-4 h-4" />
+                            Browse Source <ExternalLink className="w-4 h-4" />
                         </Link>
                     </div>
                 )}
@@ -107,7 +105,7 @@ export default function ProjectDetailPage() {
                         <div className="space-y-4">
                             <h3 className="text-xs font-black uppercase tracking-[0.3em] text-slate-400">Technical Fiduciary</h3>
                             <p className="text-base text-slate-custom font-medium leading-relaxed">
-                                I believe that open source is a prerequisite for financial trust. Every line of logic in this tool is public, auditable, and designed for rigorous peer review.
+                                Open source standards are a prerequisite for financial trust. Every line of logic within these tools is public, auditable, and designed for rigorous peer review.
                             </p>
                         </div>
                     </div>

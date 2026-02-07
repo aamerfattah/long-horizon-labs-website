@@ -1,24 +1,24 @@
 export default function PrinciplesPage() {
     const principles = [
         {
-            title: "Long term strategic thinking",
-            description: "I focus on outcomes that matter over 10, 20, and 30 year horizons. I deliberately filter short term noise to maintain strategic signal."
+            title: "Long-term strategic focus",
+            description: "Priority is given to outcomes over 10, 20, and 30-year horizons. Short-term noise is filtered to maintain strategic signal."
         },
         {
-            title: "Outcome focused metrics",
-            description: "Benchmarks are secondary; member and capital outcomes are primary. I measure what affects real world sufficiency at the point of need."
+            title: "Outcome-focused metrics",
+            description: "Benchmarks are secondary; member and capital outcomes are primary. Measurements focus on real-world sufficiency at the point of need."
         },
         {
             title: "Responsible technical design",
-            description: "I believe technology should serve governance, not bypass it. Every tool I build is designed for explainability and rigorous human oversight."
+            description: "Technology serves governance rather than bypassing it. Tools are designed for explainability and rigorous human oversight."
         },
         {
-            title: "Decision grade analytics",
-            description: "I do not provide just raw data; I provide decision grade insights. If a metric does not clarify a strategic choice, I consider it noise."
+            title: "Decision-grade analytics",
+            description: "Information provided consists of decision-grade insights rather than raw data. Metrics must clarify strategic choices."
         },
         {
             title: "Governance by design",
-            description: "Traceability, auditability, and ethical constraints are built into my architectures, not added as a reactive afterthought."
+            description: "Traceability, auditability, and ethical constraints are inherent to the architectures from the outset."
         }
     ];
 
@@ -28,7 +28,7 @@ export default function PrinciplesPage() {
                 <div className="h-1.5 w-16 bg-aero-blue" />
                 <h1 className="text-7xl md:text-8xl font-black tracking-tighter leading-none text-midnight">Principles</h1>
                 <p className="text-2xl text-slate-custom font-medium leading-relaxed tracking-tight">
-                    The foundational beliefs that guide my technical design and strategic judgment.
+                    Baseline belief systems that guide technical design and strategic judgment within the Long Horizon Labs framework.
                 </p>
             </header>
 

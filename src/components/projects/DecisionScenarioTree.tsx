@@ -113,15 +113,15 @@ export default function DecisionScenarioTree() {
 
             <div className="pt-12 border-t border-slate-100 grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div className="space-y-4">
-                    <h3 className="text-xs font-black uppercase tracking-[0.3em] text-midnight">Logic Architecture</h3>
+                    <h3 className="text-xs font-black uppercase tracking-[0.3em] text-midnight">Logic</h3>
                     <p className="text-base text-slate-custom font-medium leading-relaxed">
-                        I built this tree engine to prevent 'analysis paralysis'. By defining weighted paths, I force a quantification of subjective strategy. It is not about predicting the future; it is about ensuring that whatever path I choose, I have calculated the cost of being wrong.
+                        The tree engine prevents analysis paralysis by requiring the quantification of subjective strategy through weighted paths. Focus remains on the validity of the process and the calculated cost of error, rather than the outcome in isolation.
                     </p>
                 </div>
                 <div className="bg-cream p-10 rounded-[48px] border border-slate-100 flex flex-col justify-center gap-2">
-                    <div className="text-[10px] font-black uppercase tracking-[0.4em] text-aero-blue">Strategic Mantra</div>
+                    <div className="text-[10px] font-black uppercase tracking-[0.4em] text-aero-blue">Strategic Value</div>
                     <p className="text-2xl font-black text-midnight tracking-tight leading-tight">
-                        'I value valid process over certain outcomes.'
+                        Process validity is prioritized over outcome certainty.
                     </p>
                 </div>
             </div>

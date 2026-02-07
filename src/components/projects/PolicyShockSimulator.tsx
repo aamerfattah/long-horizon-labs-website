@@ -139,15 +139,15 @@ export default function PolicyShockSimulator() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 pt-12 border-t border-slate-100">
                 <div className="space-y-4">
-                    <h3 className="text-xs font-black uppercase tracking-[0.3em] text-midnight">Walkthrough</h3>
+                    <h3 className="text-xs font-black uppercase tracking-[0.3em] text-midnight">Objective</h3>
                     <p className="text-base text-slate-custom font-medium leading-relaxed">
-                        I designed this simulator to expose the non-linear relationship between persistent macro shifts and terminal capital. Even a modest 2% sustained inflation shock, often dismissed as 'cyclical noise', can erode over 30% of real purchasing power over a 30-year horizon.
+                        The simulator exposes the non-linear relationship between persistent macro shifts and terminal capital. Even a modest 2% sustained inflation shock can erode over 30% of real purchasing power over a 30-year horizon.
                     </p>
                 </div>
                 <div className="bg-midnight p-8 rounded-[32px] text-white space-y-4">
-                    <h3 className="text-[10px] font-black uppercase tracking-[0.3em] text-aero-blue">Strategic Insight</h3>
+                    <h3 className="text-[10px] font-black uppercase tracking-[0.3em] text-aero-blue">Core Dynamic</h3>
                     <p className="text-lg font-bold leading-tight tracking-tight">
-                        'Compounding works both ways. My model shows that regressive shocks are not arithmetic; they are exponential.'
+                        Compounding works both ways. Regressive shocks are exponential, not arithmetic.
                     </p>
                 </div>
             </div>
