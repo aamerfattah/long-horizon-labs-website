@@ -84,6 +84,12 @@
       "regex": "^/projects(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/projects(?:/)?$"
+    },
+    {
+      "page": "/projects/[id/]",
+      "regex": "^/projects/\\[id/\\](?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/projects/\\[id/\\](?:/)?$"
     }
   ],
   "dataRoutes": [],

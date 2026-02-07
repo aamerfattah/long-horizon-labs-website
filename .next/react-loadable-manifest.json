@@ -1,1 +1,31 @@
-{}
+{
+  "lib/projectRegistry.ts -> @/components/projects/DecisionScenarioTree": {
+    "id": 5205,
+    "files": [
+      "static/chunks/382-991da30d62f6fe73.js",
+      "static/chunks/205.beec4d8586293cf1.js"
+    ]
+  },
+  "lib/projectRegistry.ts -> @/components/projects/MemberOutcomeEngine": {
+    "id": 6138,
+    "files": [
+      "static/chunks/905.9399773a6a30ed0a.js",
+      "static/chunks/638.656c8383c5b73577.js",
+      "static/chunks/138.16b54e4d9e62123d.js"
+    ]
+  },
+  "lib/projectRegistry.ts -> @/components/projects/PolicyShockSimulator": {
+    "id": 5068,
+    "files": [
+      "static/chunks/905.9399773a6a30ed0a.js",
+      "static/chunks/982.1bf76c6ab274933a.js",
+      "static/chunks/687.3ffb76e66b2089df.js"
+    ]
+  },
+  "lib/projectRegistry.ts -> @/components/projects/StrategicMetricTranslator": {
+    "id": 8466,
+    "files": [
+      "static/chunks/466.c754fb7bda1a6968.js"
+    ]
+  }
+}

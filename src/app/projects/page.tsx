@@ -1,57 +1,23 @@
-import { Terminal, Database, TreeDeciduous, ShieldCheck, Scale, BarChart3, Box, ArrowRight, Github } from "lucide-react";
-import Link from "next/link";
+"use client";
 
-const projects = [
-    {
-        id: "policy-shock-simulator",
-        title: "Policy Shock Simulator",
-        tagline: "First order macro impact modelling.",
-        problem: "Policy shifts, such as inflation, tax, or contribution rate changes, often have non-linear impacts on long term capital outcomes that are poorly understood by decision makers.",
-        approach: "A deterministic scenario engine I built to model the sensitivity of retirement outcomes to specific policy shocks without the noise of stochastic volatility.",
-        why: "Enables CIOs to answer 'what if' questions during regime shifts with immediate, explainable data.",
-        icon: Terminal,
-        repo: "https://github.com/aamerfattah/policy-shock-simulator"
-    },
-    {
-        id: "member-outcomes-lite",
-        title: "Member Outcome Engine",
-        tagline: "Outcome centric fund analytics.",
-        problem: "Institutional reporting focuses on relative performance, such as benchmarks, rather than the absolute reality of member retirement sufficiency.",
-        approach: "This tool translates high level fund data into human metrics, specifically replacement ratios and funded years.",
-        why: "I position retirement fund leadership around the only metric that matters, which is the member's quality of life.",
-        icon: Database,
-        repo: "https://github.com/aamerfattah/member-outcomes-lite"
-    },
-    {
-        id: "board-metrics-translator",
-        title: "Strategic Metric Translator",
-        tagline: "Bridging the technical governance gap.",
-        problem: "Engineers and quants provide data while Boards require strategic judgment. The translation layer is often lost in translation.",
-        approach: "A rule based mapping engine I designed to generate markdown board packs from technical output.",
-        why: "I ensure technical risk is communicated with executive clarity, not jargon.",
-        icon: BarChart3,
-        repo: "https://github.com/aamerfattah/board-metrics-translator"
-    },
-    {
-        id: "scenario-tree",
-        title: "Decision Scenario Tree",
-        tagline: "Simplified decision architecture.",
-        problem: "Traditional decision trees are either too simple, such as manual trees, or too complex, such as black box AI.",
-        approach: "YAML defined logic trees I developed to allow for probability weighting and expected value calculations.",
-        why: "Forces clarity in assumptions during complex, multi stage decision processes.",
-        icon: TreeDeciduous,
-        repo: "https://github.com/aamerfattah/scenario-tree"
-    }
-];
+import { projectRegistry } from '@/lib/projectRegistry';
+import Link from "next/link";
+import { ArrowRight, Github, ExternalLink } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function ProjectsPage() {
+    const projects = Object.entries(projectRegistry).map(([id, data]) => ({
+        id,
+        ...data
+    }));
+
     return (
         <div className="max-w-6xl mx-auto px-6 py-24 md:py-48 space-y-48">
             <header className="space-y-10 max-w-3xl">
                 <div className="h-1.5 w-16 bg-aero-blue" />
                 <h1 className="text-7xl md:text-8xl font-black tracking-tighter leading-none text-midnight">Projects</h1>
                 <p className="text-2xl text-slate-custom font-medium leading-relaxed tracking-tight">
-                    My projects are minimalist, opinionated, and built to be understood. I prioritise technical restraint over complexity to ensure decision grade signal.
+                    My projects are minimalist, opinionated, and built to be understood. I prioritise technical restraint over complexity to ensure decision-grade signal.
                 </p>
             </header>
 
@@ -66,13 +32,19 @@ export default function ProjectsPage() {
                                 <h2 className="text-4xl font-black tracking-tighter text-midnight leading-none">{project.title}</h2>
                                 <div className="text-xs font-black uppercase tracking-[0.3em] text-aero-blue">{project.tagline}</div>
                             </div>
-                            <div className="flex gap-4 pt-4">
+                            <div className="flex flex-col gap-4 pt-4">
                                 <Link
-                                    href={project.repo}
-                                    target="_blank"
-                                    className="inline-flex items-center gap-3 text-xs font-black uppercase tracking-widest text-white bg-midnight px-8 py-4 rounded-full hover:bg-aero-blue transition-all shadow-premium group"
+                                    href={`/projects/${project.id}`}
+                                    className="inline-flex items-center justify-center gap-3 text-xs font-black uppercase tracking-widest text-white bg-midnight px-8 py-4 rounded-full hover:bg-aero-blue transition-all shadow-premium group"
                                 >
-                                    <Github className="w-4 h-4" /> Open Repository <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                                    Open Sandbox <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                                </Link>
+                                <Link
+                                    href={`https://github.com/aamerfattah/${project.id}`}
+                                    target="_blank"
+                                    className="inline-flex items-center justify-center gap-3 text-xs font-black uppercase tracking-widest text-midnight bg-cream px-8 py-4 rounded-full border border-slate-200 hover:border-midnight transition-all group"
+                                >
+                                    <Github className="w-4 h-4" /> Source Code <ExternalLink className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                                 </Link>
                             </div>
                         </div>
@@ -83,7 +55,7 @@ export default function ProjectsPage() {
                             </div>
                             <div className="space-y-6">
                                 <h3 className="text-xs font-black uppercase tracking-[0.3em] text-slate-400">Technical Approach</h3>
-                                <p className="text-xl text-slate-custom font-medium leading-relaxed tracking-tight">{project.approach}</p>
+                                <p className="text-xl text-slate-custom font-medium leading-relaxed tracking-tight">{project.methodology}</p>
                             </div>
                             <div className="space-y-6 bg-cream p-10 rounded-[40px] border border-slate-100 shadow-subtle">
                                 <h3 className="text-xs font-black uppercase tracking-[0.3em] text-aero-blue">Strategic Value</h3>
