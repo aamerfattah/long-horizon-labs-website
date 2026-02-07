@@ -2,23 +2,23 @@ export default function PrinciplesPage() {
     const principles = [
         {
             title: "Long term strategic thinking",
-            description: "We focus on outcomes that matter over 10, 20, and 30 year horizons. Short term noise is deliberately filtered to maintain signal."
+            description: "I focus on outcomes that matter over 10, 20, and 30 year horizons. I deliberately filter short term noise to maintain strategic signal."
         },
         {
             title: "Outcome focused metrics",
-            description: "Benchmarks are secondary; member and capital outcomes are primary. We measure what affects real world sufficiency at the point of need."
+            description: "Benchmarks are secondary; member and capital outcomes are primary. I measure what affects real world sufficiency at the point of need."
         },
         {
             title: "Responsible technical design",
-            description: "Technology should serve governance, not bypass it. Every tool we build is designed for explainability and rigorous human oversight."
+            description: "I believe technology should serve governance, not bypass it. Every tool I build is designed for explainability and rigorous human oversight."
         },
         {
             title: "Decision grade analytics",
-            description: "We do not provide just raw data; we provide decision grade insights. If it does not clarify a strategic choice, it is noise."
+            description: "I do not provide just raw data; I provide decision grade insights. If a metric does not clarify a strategic choice, I consider it noise."
         },
         {
             title: "Governance by design",
-            description: "Traceability, auditability, and ethical constraints are built into the architecture, not added as a reactive afterthought."
+            description: "Traceability, auditability, and ethical constraints are built into my architectures, not added as a reactive afterthought."
         }
     ];
 
@@ -28,7 +28,7 @@ export default function PrinciplesPage() {
                 <div className="h-1.5 w-16 bg-aero-blue" />
                 <h1 className="text-7xl md:text-8xl font-black tracking-tighter leading-none text-midnight">Principles</h1>
                 <p className="text-2xl text-slate-custom font-medium leading-relaxed tracking-tight">
-                    The foundational beliefs that guide our technical design and strategic judgment.
+                    The foundational beliefs that guide my technical design and strategic judgment.
                 </p>
             </header>
 

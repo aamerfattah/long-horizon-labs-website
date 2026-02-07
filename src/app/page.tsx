@@ -73,7 +73,7 @@ export default function HomePage() {
             <span className="text-aero-blue">long-term</span> capital.
           </h1>
           <p className="text-2xl md:text-3xl text-slate-custom font-medium leading-relaxed tracking-tight max-w-2xl">
-            Long Horizon Labs develops minimalist, high-signal artifacts for risk, governance, and decision-making in capital markets.
+            I develop minimalist, high-signal artifacts for risk, governance, and decision-making in capital markets.
           </p>
         </motion.div>
       </section>
@@ -85,10 +85,10 @@ export default function HomePage() {
         </div>
         <div className="col-span-full md:col-span-8 space-y-10">
           <p className="text-3xl md:text-4xl text-midnight font-bold leading-[1.15] tracking-tight text-balance">
-            We believe that systemic risk is often buried in technical complexity. Our philosophy centers on clarity over cleverness, stripping away the noise to expose the variables that actually drive 30 year outcomes. We prioritize explainability, technical restraint, and governance by design.
+            I believe that systemic risk is often buried in technical complexity. My philosophy centers on clarity over cleverness, stripping away the noise to expose the variables that actually drive 30 year outcomes. I prioritise explainability, technical restraint, and governance by design.
           </p>
           <Link href="/principles" className="inline-flex items-center gap-4 text-midnight font-black text-xs uppercase tracking-widest border-b-2 border-midnight pb-2 hover:border-aero-blue hover:text-aero-blue transition-all group">
-            Read our Principles <ArrowRight className="w-4 h-4 group-hover:translate-x-2 transition-transform" />
+            Read My Principles <ArrowRight className="w-4 h-4 group-hover:translate-x-2 transition-transform" />
           </Link>
         </div>
       </section>
@@ -98,7 +98,7 @@ export default function HomePage() {
         <div className="flex justify-between items-end border-b border-slate-200 pb-10">
           <div className="space-y-2">
             <h2 className="text-sm font-black uppercase tracking-[0.3em] text-aero-blue">Core Artifacts</h2>
-            <p className="text-slate-custom font-medium max-w-md">Opinionated open source tools for institutional decision support.</p>
+            <p className="text-slate-custom font-medium max-w-md">My opinionated open source tools for institutional decision support.</p>
           </div>
           <Link href="/projects" className="text-xs font-black text-midnight uppercase tracking-widest hover:text-aero-blue transition-colors flex items-center gap-2">
             View All Projects <ChevronRight className="w-4 h-4" />
@@ -139,12 +139,12 @@ export default function HomePage() {
         <div className="space-y-4">
           <div className="font-black text-midnight tracking-tighter text-4xl">Long Horizon Labs</div>
           <p className="text-slate-custom font-medium max-w-xs leading-relaxed text-sm">
-            Providing the technical substrate for 30 year strategic judgment in capital markets.
+            I provide the technical substrate for 30 year strategic judgment in capital markets.
           </p>
           <div className="text-[10px] text-slate-400 font-black uppercase tracking-[0.2em] pt-4">© 2026. All Rights Reserved.</div>
         </div>
         <nav className="flex flex-wrap gap-x-12 gap-y-4 text-xs font-black text-midnight uppercase tracking-widest">
-          <Link href="/about" className="hover:text-aero-blue transition-colors">About</Link>
+          <Link href="/about" className="hover:text-aero-blue transition-colors">Profile</Link>
           <Link href="/governance" className="hover:text-aero-blue transition-colors">Governance</Link>
           <Link href="https://github.com/aamerfattah" className="hover:text-aero-blue transition-colors underline decoration-aero-blue decoration-2 underline-offset-4">GitHub</Link>
         </nav>
