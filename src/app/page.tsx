@@ -1,10 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, Box, Terminal, Database, TreeDeciduous, ShieldCheck, Scale, BarChart3, ChevronRight } from "lucide-react";
+import { ArrowRight, Box, Terminal, Database, TreeDeciduous, ShieldCheck, Scale, BarChart3, ChevronRight, DatabaseBackup } from "lucide-react";
 import { motion } from "framer-motion";
 
 const projects = [
+  {
+    title: "Super Registry Refinery",
+    statement: "High-fidelity fiduciary data refinery for institutional benchmarking.",
+    icon: DatabaseBackup,
+    id: "super-registry"
+  },
   {
     title: "Policy Shock Simulator",
     statement: "Modelling first-order impacts of policy shifts on long-term capital outcomes.",
@@ -30,20 +36,20 @@ const projects = [
     id: "scenario-tree"
   },
   {
-    title: "Systemic Data Refinery",
+    title: "Superannuation Data Refinery",
     statement: "Standardising public financial datasets for systemic risk analysis.",
     icon: Box,
     id: "super-data-cleaner"
   },
   {
-    title: "Long Horizon Indicators",
+    title: "Blue Horizon Indicators",
     statement: "Defining metrics that maintain signal over 10 to 30 year horizons.",
     icon: ShieldCheck,
-    id: "long-horizon-kpis"
+    id: "blue-horizon-kpis"
   },
   {
     title: "AI Governance Framework",
-    statement: "An framework for algorithmic governance and fiduciary deployment.",
+    statement: "A framework for algorithmic governance and fiduciary deployment.",
     icon: Scale,
     id: "ethical-ai-checklist"
   }
@@ -66,7 +72,7 @@ export default function HomePage() {
             <span className="text-aero-blue">long-term</span> capital.
           </h1>
           <p className="text-2xl md:text-3xl text-slate-custom font-medium leading-relaxed tracking-tight max-w-2xl">
-            Long Horizon Labs develops minimalist, high-signal artifacts for risk, governance, and decision-making in capital markets.
+            Blue Horizon Labs develops minimalist, high-signal artifacts for risk, governance, and decision-making in capital markets.
           </p>
         </motion.div>
       </section>
@@ -130,7 +136,7 @@ export default function HomePage() {
       {/* Footer Sign-off */}
       <footer className="pt-32 pb-16 flex flex-col md:flex-row justify-between gap-12 items-start md:items-end">
         <div className="space-y-4">
-          <div className="font-black text-midnight tracking-tighter text-4xl">Long Horizon Labs</div>
+          <div className="font-black text-midnight tracking-tighter text-4xl">Blue Horizon Labs</div>
           <p className="text-slate-custom font-medium max-w-xs leading-relaxed text-sm">
             Providing the technical substrate for 30-year strategic judgment in capital markets.
           </p>

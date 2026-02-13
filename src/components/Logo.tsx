@@ -71,11 +71,11 @@ export function Logo({ className, iconOnly = false }: { className?: string, icon
 
             {!iconOnly && (
                 <div className="flex flex-col -space-y-1">
-                    <span className="text-xl font-black tracking-tighter text-slate-900 group-hover:text-quantum-blue transition-colors">
-                        DeepTech<span className="text-quantum-blue text-sm ml-0.5">IQ</span>
+                    <span className="text-xl font-black tracking-tighter text-midnight group-hover:text-aero-blue transition-colors">
+                        Blue Horizon<span className="text-aero-blue text-sm ml-0.5">Labs</span>
                     </span>
                     <span className="text-[8px] font-bold text-slate-400 uppercase tracking-[0.3em] pl-0.5">
-                        Institutional intelligence
+                        Open tools for long-term capital
                     </span>
                 </div>
             )}

@@ -1,2 +1,6 @@
 .vercel
 node_modules/
+.env*.local
+.next/
+*.txt
+*.log

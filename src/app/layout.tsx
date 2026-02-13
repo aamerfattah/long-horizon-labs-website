@@ -10,7 +10,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Long Horizon Labs | Open Tools for Capital & Risk",
+  title: "Blue Horizon Labs | Open Tools for Capital & Risk",
   description: "Minimalist, high-signal artifacts at the intersection of capital markets, retirement systems, and systemic risk.",
 };
 

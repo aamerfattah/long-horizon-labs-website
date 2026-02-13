@@ -61,7 +61,7 @@ export default function AboutPage() {
                     GAICD • Executive MBA (AGSM) • CFA Candidate
                 </div>
                 <div className="text-[10px] font-black uppercase tracking-[0.4em] text-aero-blue">
-                    Long Horizon Labs
+                    Blue Horizon Labs
                 </div>
             </footer>
         </div>

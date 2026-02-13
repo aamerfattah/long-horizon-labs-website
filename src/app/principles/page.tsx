@@ -28,7 +28,7 @@ export default function PrinciplesPage() {
                 <div className="h-1.5 w-16 bg-aero-blue" />
                 <h1 className="text-7xl md:text-8xl font-black tracking-tighter leading-none text-midnight">Principles</h1>
                 <p className="text-2xl text-slate-custom font-medium leading-relaxed tracking-tight">
-                    Baseline belief systems that guide technical design and strategic judgment within the Long Horizon Labs framework.
+                    Baseline belief systems that guide technical design and strategic judgment within the Blue Horizon Labs framework.
                 </p>
             </header>
 

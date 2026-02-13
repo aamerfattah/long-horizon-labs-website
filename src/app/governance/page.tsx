@@ -15,7 +15,7 @@ export default function GovernancePage() {
                 </div>
                 <div className="col-span-full md:col-span-8 space-y-10">
                     <p className="text-2xl text-midnight font-bold leading-relaxed tracking-tight">
-                        Code developed under Long Horizon Labs is released under the MIT License. Tools required for systemic risk assessment and long-term capital management must be transparent, auditable, and accessible to the global financial community.
+                        Code developed under Blue Horizon Labs is released under the MIT License. Tools required for systemic risk assessment and long-term capital management must be transparent, auditable, and accessible to the global financial community.
                     </p>
                 </div>
             </section>

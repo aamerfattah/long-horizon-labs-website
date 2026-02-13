@@ -13,7 +13,7 @@ export function Navbar({ onMenuClick, isSidebarVisible }: { onMenuClick: () => v
         )}>
             <div className="flex items-center gap-12">
                 <Link href="/" className="font-black text-2xl tracking-tighter text-midnight hover:text-aero-blue transition-colors">
-                    Long Horizon Labs
+                    Blue Horizon Labs
                 </Link>
 
                 <nav className="hidden md:flex items-center gap-10">
