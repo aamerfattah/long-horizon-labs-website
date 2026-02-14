@@ -7,15 +7,6 @@ const StrategicMetricTranslator = dynamic(() => import('@/components/projects/St
 const DecisionScenarioTree = dynamic(() => import('@/components/projects/DecisionScenarioTree'), { ssr: false });
 
 export const projectRegistry = {
-    "super-registry": {
-        title: "Super Registry Refinery",
-        tagline: "High-fidelity fiduciary data refinery.",
-        icon: DatabaseBackup,
-        component: null,
-        problem: "Superannuation disclosures are fragmented across 100+ entities, making systemic risk analysis and peer benchmarking manually intensive and error-prone.",
-        methodology: "A rule-based data refinery that ingests raw APRA Table disclosures and normalizes them into a unified schema for real-time executive intelligence.",
-        why: "Provides immediate transparency into fund health, insurance efficiency, and performance relativity for executive decision-makers."
-    },
     "policy-shock-simulator": {
         title: "Policy Shock Simulator",
         tagline: "First-order macro impact modelling.",
@@ -51,15 +42,6 @@ export const projectRegistry = {
         problem: "Decision-making in capital markets often suffers from either over-simplification or 'black-box' complexity that lacks accountability.",
         methodology: "A logic tree engine designed for probability weighting and expected value calculations across multiple strategic regimes.",
         why: "Provides clarity in assumptions and ensures a valid process even when outcomes are uncertain."
-    },
-    "super-data-cleaner": {
-        title: "Superannuation Data Refinery",
-        tagline: "Aggregating systemic superannuation stats.",
-        icon: Box,
-        component: null,
-        problem: "Systemic risk analysis is hampered by the fragmented, non-standard nature of public financial disclosures across jurisdictions.",
-        methodology: "A rule-based refinery that standardises disparate CSV and JSON blobs into a unified schema for multi-asset stress testing.",
-        why: "Reduces data processing overhead, allowing for a focus on signal rather than syntax."
     },
     "blue-horizon-kpis": {
         title: "Blue Horizon Indicators",

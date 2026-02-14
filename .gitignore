@@ -4,3 +4,4 @@ node_modules/
 .next/
 *.txt
 *.log
+.env.local

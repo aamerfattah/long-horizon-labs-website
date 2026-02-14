@@ -36,14 +36,8 @@ const projects = [
     id: "scenario-tree"
   },
   {
-    title: "Superannuation Data Refinery",
-    statement: "Standardising public financial datasets for systemic risk analysis.",
-    icon: Box,
-    id: "super-data-cleaner"
-  },
-  {
     title: "Blue Horizon Indicators",
-    statement: "Defining metrics that maintain signal over 10 to 30 year horizons.",
+    statement: "Metrics that maintain signal over decades.",
     icon: ShieldCheck,
     id: "blue-horizon-kpis"
   },
